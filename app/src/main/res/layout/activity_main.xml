@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:weightSum="5"
+    android:orientation="vertical"
+    android:background="#0304A8">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHARLOTTE FOLK"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="#EDFFFFFF">
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="top"
+                android:layout_marginTop="5.7sp"
+                android:layout_marginLeft="2sp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TM"
+                    android:textColor="#EDFFFFFF"
+                    android:textSize="10sp"
+                    android:textStyle="bold">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marikina City, Philippines"
+            android:textSize="15sp"
+            android:textColor="#DFFFFFFF">
+        </TextView>
+        
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#DFFFFFFF"
+            android:hint="Username"
+            android:textAlignment="center"
+            android:textColorHint="#D84A4A4A"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp">
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#DFFFFFFF"
+            android:hint="Password"
+            android:textAlignment="center"
+            android:textColorHint="#D84A4A4A"
+            android:textSize="17sp"
+            android:layout_marginBottom="20dp">
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:backgroundTint="#020279"
+            android:text="Log In"
+            android:textColor="#DFFFFFFF"
+            android:textSize="17sp"
+            android:onClick="login">
+        </Button>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".5"
+        >
+
+    </LinearLayout>
+</LinearLayout>
